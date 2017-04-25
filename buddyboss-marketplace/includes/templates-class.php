@@ -323,7 +323,7 @@ if ( ! class_exists( 'BuddyBoss_BM_Templates' ) ):
             // Output the image gallery if there are any images.
             $product = new WC_Product( $post_id );
             // Todo change this to use : product_image_gallery
-            $attachment_ids = $product->get_gallery_attachment_ids();
+            $attachment_ids = $product->get_gallery_image_ids();
 
             $gallery_options = apply_filters( 'wcv_product_gallery_options', array(
                     'max_upload' => 4,
@@ -347,7 +347,7 @@ if ( ! class_exists( 'BuddyBoss_BM_Templates' ) ):
                     echo '</li>';
                 }
             }
-            echo '<li class="file-upload-wrap productgallery">';
+            echo '<li class="file-upload-wrap productgallery wcv-gallery-image">';
             echo '<p class="wcv-media-uploader-gallery"><a href="#" class="add-image" data-choose="' .__( 'Add Images to Product Gallery', 'buddyboss-marketplace'). '" data-update="' .__( 'Add to gallery', 'buddyboss-marketplace'). '" data-delete="Delete image" data-text="Delete">' .__( 'Add Product Image', 'buddyboss-marketplace'). '</a></p>';
             echo '</li>';
             echo '</ul>';

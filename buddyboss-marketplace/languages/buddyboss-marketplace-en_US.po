@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MarketPlace v1.0.5\n"
 "Report-Msgid-Bugs-To: https://www.buddyboss.com/contact/\n"
-"POT-Creation-Date: 2017-04-15 07:16:05+00:00\n"
+"POT-Creation-Date: 2017-04-22 09:02:35+00:00\n"
 "PO-Revision-Date: 2016-03-21 18:14-0500\n"
 "Last-Translator: BuddyBoss <support@buddyboss.com>\n"
 "Language-Team: BuddyBoss <support@buddyboss.com>\n"
@@ -84,9 +84,12 @@ msgstr ""
 msgid "Settings updated."
 msgstr ""
 
-#: includes/admin.php:312 templates/wc-vendors/dashboard/product-edit.php:15
+#: includes/admin.php:312
+#: templates/wc-vendors/dashboard/product-download.php:15
+#: templates/wc-vendors/dashboard/product-edit.php:15
+#: templates/wc-vendors/dashboard/product-simple.php:15
 #: templates/wc-vendors/dashboard/shop_coupon-edit.php:16
-#: templates/wc-vendors/dashboard/store-settings.php:167
+#: templates/wc-vendors/dashboard/store-settings.php:173
 msgid "Save Changes"
 msgstr ""
 
@@ -169,138 +172,138 @@ msgstr ""
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
-#: includes/main-class.php:656 includes/vc-elements.php:550
+#: includes/main-class.php:657 includes/vc-elements.php:550
 msgid "Out of Stock"
 msgstr ""
 
-#: includes/main-class.php:673
+#: includes/main-class.php:674
 msgid "Registering as a vendor."
 msgstr ""
 
-#: includes/main-class.php:686
+#: includes/main-class.php:687
 msgid ""
 "I have read and accepted the <a target=\"top\" href=\"%s\">terms and "
 "conditions</a>"
 msgstr ""
 
-#: includes/main-class.php:729 includes/main-class.php:790
+#: includes/main-class.php:730 includes/main-class.php:791
 msgid "You must accept the terms and conditions to become a vendor."
 msgstr ""
 
-#: includes/main-class.php:944
+#: includes/main-class.php:945
 msgid "Basic"
 msgstr ""
 
-#: includes/main-class.php:947 includes/vc-elements.php:151
+#: includes/main-class.php:948 includes/vc-elements.php:151
 msgid "Description"
 msgstr ""
 
-#: includes/main-class.php:948
+#: includes/main-class.php:949
 msgid "Short Description"
 msgstr ""
 
-#: includes/main-class.php:949 includes/vc-elements.php:61
+#: includes/main-class.php:950 includes/vc-elements.php:61
 msgid "Categories"
 msgstr ""
 
-#: includes/main-class.php:950 includes/templates-class.php:45
+#: includes/main-class.php:951 includes/templates-class.php:45
 #: includes/templates-class.php:63 includes/templates-class.php:76
 msgid "Colors"
 msgstr ""
 
-#: includes/main-class.php:951
+#: includes/main-class.php:952
 msgid "Tags"
 msgstr ""
 
-#: includes/main-class.php:952
+#: includes/main-class.php:953
 msgid "Attributes"
 msgstr ""
 
-#: includes/main-class.php:1480
+#: includes/main-class.php:1483
 msgid "Shop by Category"
 msgstr ""
 
-#: includes/main-class.php:1487 includes/main-class.php:1560
+#: includes/main-class.php:1490 includes/main-class.php:1563
 msgid "Cart"
 msgstr ""
 
-#: includes/main-class.php:1524
+#: includes/main-class.php:1527
 msgid "Marketplace Menu"
 msgstr ""
 
-#: includes/main-class.php:1735 includes/main-class.php:1753
+#: includes/main-class.php:1738 includes/main-class.php:1756
 msgid "Featured Category"
 msgstr ""
 
-#: includes/main-class.php:1737 includes/main-class.php:1757
+#: includes/main-class.php:1740 includes/main-class.php:1760
 msgid "Show this category at the top of any product category page."
 msgstr ""
 
-#: includes/main-class.php:1824 includes/marketplace-class.php:87
+#: includes/main-class.php:1827 includes/marketplace-class.php:87
 #: templates/sellers-index.php:138
 #: templates/woocommerce/content-single-product.php:68
 msgid "Add to Favorites"
 msgstr ""
 
-#: includes/main-class.php:1826 includes/marketplace-class.php:88
+#: includes/main-class.php:1829 includes/marketplace-class.php:88
 #: templates/sellers-index.php:142
 #: templates/woocommerce/content-single-product.php:71
 msgid "Remove from Favorites"
 msgstr ""
 
-#: includes/main-class.php:1902
+#: includes/main-class.php:1905
 msgid "Default sorting"
 msgstr ""
 
-#: includes/main-class.php:1903
+#: includes/main-class.php:1906
 msgid "Sort by popularity"
 msgstr ""
 
-#: includes/main-class.php:1904
+#: includes/main-class.php:1907
 msgid "Sort by average rating"
 msgstr ""
 
-#: includes/main-class.php:1905
+#: includes/main-class.php:1908
 msgid "Sort by newness"
 msgstr ""
 
-#: includes/main-class.php:1906
+#: includes/main-class.php:1909
 msgid "Sort by price: low to high"
 msgstr ""
 
-#: includes/main-class.php:1907
+#: includes/main-class.php:1910
 msgid "Sort by price: high to low"
 msgstr ""
 
-#: includes/main-class.php:2115
+#: includes/main-class.php:2118
 msgid "MarketPlace Pages Text"
 msgstr ""
 
-#: includes/main-class.php:2116
+#: includes/main-class.php:2119
 msgid "Specify the marketplace pages content font properties."
 msgstr ""
 
-#: includes/main-class.php:2132
+#: includes/main-class.php:2135
 msgid "MarketPlace Pages Semibold Text"
 msgstr ""
 
-#: includes/main-class.php:2133
+#: includes/main-class.php:2136
 msgid "Specify the marketplace pages content semibold text."
 msgstr ""
 
-#: includes/main-class.php:2149
+#: includes/main-class.php:2152
 msgid "MarketPlace Pages Bold Text"
 msgstr ""
 
-#: includes/main-class.php:2150
+#: includes/main-class.php:2153
 msgid "Specify the marketplace pages content bold text."
 msgstr ""
 
-#: includes/main-class.php:2168
+#: includes/main-class.php:2171
 msgid "MarketPlace Menu Text"
 msgstr ""
 
-#: includes/main-class.php:2169
+#: includes/main-class.php:2172
 msgid "Specify the marketplace menu text styles."
 msgstr ""
 
@@ -806,12 +809,22 @@ msgstr ""
 msgid "Return to dashboard"
 msgstr ""
 
+#: templates/wc-vendors/dashboard/product-download.php:15
+msgid "Add Downloadable Product"
+msgstr ""
+
+#: templates/wc-vendors/dashboard/product-download.php:85
+#: templates/wc-vendors/dashboard/product-edit.php:226
+#: templates/wc-vendors/dashboard/product-simple.php:89
+msgid "Save Draft"
+msgstr ""
+
 #: templates/wc-vendors/dashboard/product-edit.php:15
 msgid "Add Product"
 msgstr ""
 
-#: templates/wc-vendors/dashboard/product-edit.php:211
-msgid "Save Draft"
+#: templates/wc-vendors/dashboard/product-simple.php:15
+msgid "Add Simple Product"
 msgstr ""
 
 #: templates/wc-vendors/dashboard/reports/reports.php:16

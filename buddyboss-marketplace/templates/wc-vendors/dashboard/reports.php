@@ -28,18 +28,18 @@ if ( $datepicker !== 'false' ) {
 		<?php if ( !empty( $vendor_summary[ 'products' ] ) ) : ?>
 
 			<?php foreach ( $vendor_summary[ 'products' ] as $product ) :
-				$_product = get_product( $product[ 'id' ] ); ?>
+				$_product = wc_get_product( $product[ 'id' ] ); ?>
 
 				<tr>
 
 					<td class="product" data-th="<?php _e( 'Product', 'buddyboss-marketplace' ); ?>"><strong><a
 								href="<?php echo esc_url( get_permalink( $_product->id ) ) ?>"><?php echo $product[ 'title' ] ?></a></strong>
 						<?php if ( !empty( $_product->variation_id ) ) {
-							echo woocommerce_get_formatted_variation( $_product->variation_data );
+							echo wc_get_formatted_variation( $_product->variation_data );
 						} ?>
 					</td>
 					<td class="qty" data-th="<?php _e( 'Quantity', 'buddyboss-marketplace' ) ?>"><?php echo $product[ 'qty' ]; ?></td>
-					<td class="commission" data-th="<?php _e( 'Commission', 'buddyboss-marketplace' ) ?>"><?php echo woocommerce_price( $product[ 'cost' ] ); ?></td>
+					<td class="commission" data-th="<?php _e( 'Commission', 'buddyboss-marketplace' ) ?>"><?php echo wc_price( $product[ 'cost' ] ); ?></td>
 					<td class="rate" data-th="<?php _e( 'Rate', 'buddyboss-marketplace' ) ?>"><?php echo sprintf( '%.2f%%', $product[ 'commission_rate' ] ); ?></td>
 
 					<?php if ( $can_view_orders ) : ?>
@@ -55,7 +55,7 @@ if ( $datepicker !== 'false' ) {
 			<tr>
 				<td><strong><?php _e( 'Totals', 'buddyboss-marketplace' ); ?></strong></td>
 				<td data-th="<?php _e( 'Quantity', 'buddyboss-marketplace' ) ?>"><?php echo $vendor_summary[ 'total_qty' ]; ?></td>
-				<td data-th="<?php _e( 'Commission', 'buddyboss-marketplace' ) ?>"><?php echo woocommerce_price( $vendor_summary[ 'total_cost' ] ); ?></td>
+				<td data-th="<?php _e( 'Commission', 'buddyboss-marketplace' ) ?>"><?php echo wc_price( $vendor_summary[ 'total_cost' ] ); ?></td>
 				<td></td>
 
 				<?php if ( $can_view_orders ) : ?>

@@ -334,6 +334,7 @@ if ( ! class_exists( 'BuddyBoss_BM_Plugin' ) ):
 			/** Image Size ***************************************************** */
 
 			add_image_size( 'bm-shop_single', 547, 607, true );
+			add_image_size( 'bm-store-icon', 50, 50, true );
 			add_image_size( 'bm-store-archive', 135, 150, true );
 			add_image_size( 'bm-product-archive', 297, 330, true );
 			add_image_size( 'cat-first-one', 261, 300, true );
@@ -694,7 +695,7 @@ if ( ! class_exists( 'BuddyBoss_BM_Plugin' ) ):
 							}
 
 							jQuery('#as_vendor').on('click', function (e) {
-
+								
 								var $elmasVendorCheck = jQuery(this),
 									$elmTermCheck	  = jQuery('.agree-to-terms-container');
 
@@ -714,11 +715,11 @@ if ( ! class_exists( 'BuddyBoss_BM_Plugin' ) ):
 
 			<?php endif;
 		}
-
+        
         public function setup_register_as_vendor(){
             if( !class_exists( 'WC_Vendors' ) )
                 return;
-
+            
             if( !isset( $_POST['as_vendor'] ) || 'yes' != $_POST['as_vendor'] ) return;
 
 			//Accept term and conditions check
@@ -736,44 +737,44 @@ if ( ! class_exists( 'BuddyBoss_BM_Plugin' ) ):
 			add_action( 'bp_core_signup_user', array( $this, 'process_register_as_vendor' ), 99 );
 			$_POST['apply_for_vendor'] = '1';
         }
-
+        
         public function process_register_as_vendor( $user_id ){
             if( ! $user_id || is_wp_error( $user_id ) )
                 return;
-
+            
             $response = array(
                 'success'   => true,
                 'message'   => '',
                 'js'        => '',
             );
-
+            
             $redirect_to = '';
 			$manual = WC_Vendors::$pv_options->get_option( 'manual_vendor_registration' );
 			$role   = apply_filters( 'wcvendors_pending_role', ( $manual ? 'pending_vendor' : 'vendor' ) );
-
-            if ( ! class_exists( 'WCVendors_Pro' ) ) {
+            
+            if ( ! class_exists( 'WCVendors_Pro' ) ) { 
                 //set user role as pending and redirect to vendor dashboard
 
 				$wp_user_object = new WP_User( $user_id );
 				$wp_user_object->set_role( $role );
-
+                
                 do_action( 'wcvendors_application_submited', $user_id );
-
+                
                 $vendor_dashboard_page = WC_Vendors::$pv_options->get_option( 'vendor_dashboard_page' );
                 $redirect_to = apply_filters( 'wcvendors_signup_redirect', get_permalink( $vendor_dashboard_page ) );
             } else {
                 //dont need to change user roles, just redirect to pro dashboard
-                $redirect_to = WCVendors_Pro_Dashboard::get_dashboard_page_url();
+                $redirect_to = WCVendors_Pro_Dashboard::get_dashboard_page_url(); 
             }
 
 			update_user_meta( $user_id, '_bm_role',  $role );
             wp_set_auth_cookie( $user_id );//necessary to log them in, so that they can proceed with vendor application form
-
+            
             $response['js'] = "window.location.href = '$redirect_to'";
-
+            
             die( json_encode( $response ) );
         }
-
+		
 		/**
 		 * Validation of vendor field.
 		 */
@@ -1177,7 +1178,7 @@ INNER JOIN {$wpdb->usermeta} um
 				.select2-results .select2-highlighted,
 				.not-vendor .form-row input[type="submit"]:hover,
 				.wcv-form .wcv-button[type=submit]:hover,
-				.wcv-form button.wcv-button:hover,
+				.wcv-search span:after,
 				.wcv-modal input[type=submit]:hover,
 				.wcv_dashboard_table_header a.button:hover,
 				.file-upload-wrap .remove-image:before,
@@ -1252,6 +1253,7 @@ INNER JOIN {$wpdb->usermeta} um
 				.wcv-tabs.top > .tabs-nav li.active a,
 				.wcv-tabs.top > .tabs-nav li a:hover,
 				.wcv-form .control-group .inline input[type=checkbox]:checked + label,
+				.wcv_shipping_rates input[type=checkbox]:checked+label,
 				.woocommerce ul.products li.type-product .product-item-buttons a.bm-product-to-favorites.favorited i,
 				.woocommerce #respond input#submit.loading:after,
 				.woocommerce a.button.loading:after,
@@ -1398,6 +1400,7 @@ INNER JOIN {$wpdb->usermeta} um
 					border-bottom: <?php echo onesocial_get_option( 'body_text_color' ); ?>;
 				}
 
+				.wcv_shipping_rates input[type=checkbox]:checked+label:before,
 				.wcv-form .control-group .inline input[type=checkbox]:checked + label:before {
 					-webkit-box-shadow: 0px 0px 0px 1px <?php echo $accent_color; ?>;
 					-moz-box-shadow: 0px 0px 0px 1px <?php echo $accent_color; ?>;
@@ -2434,6 +2437,14 @@ INNER JOIN {$wpdb->usermeta} um
 			if( $template_name == 'product-edit.php' ){
 				$located = bm_check_template( "wc-vendors/dashboard/{$template_name}" );
 				//$located = wc_locate_template( $template_name, 'wc-vendors/dashboard/', $this->templates_dir.'/wc-vendors/dashboard/' );
+			}
+
+			if( $template_name == 'product-download.php' ){
+				$located = bm_check_template( "wc-vendors/dashboard/{$template_name}" );
+			}
+
+			if( $template_name == 'product-simple.php' ){
+				$located = bm_check_template( "wc-vendors/dashboard/{$template_name}" );
 			}
 
 			if( $template_name == 'reports.php' && $template_path == 'wc-vendors/dashboard/'){

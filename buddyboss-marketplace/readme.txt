@@ -1,8 +1,8 @@
 === MarketPlace ===
 Contributors: buddyboss
 Requires at least: 3.8
-Tested up to: 4.7.2
-Stable tag: 1.4.0
+Tested up to: 4.7.4
+Stable tag: 1.4.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -28,6 +28,11 @@ MarketPlace gives you the tools you need to create your own online marketplace. 
 
 == Changelog ==
 
+= 1.4.1 =
+* Fix - Vendor shipping tab select box style fix
+* Fix - Order received page style tweak
+* Fix - WCV 1.4 templates update
+
 = 1.4.0 =
 * Fix - Register fixes to become Vendor
 * Fix - Shop name when sharing link on Facebook
@@ -49,7 +54,7 @@ MarketPlace gives you the tools you need to create your own online marketplace. 
 * Fix - In Vendor dashboard category men and sticky menu overlap with the order detail popup
 * Fix - Recent product widget column settings issue fix
 * Fix - Geodirectory conflict fix
-* Fix - WooCommerce 3.0 Product Gallery fixes 
+* Fix - WooCommerce 3.0 Product Gallery fixes
 * Fix - Sub categories for all Marketplace categories do then not display
 * Fix - Updated placeholder text
 * Fix - Pagination on Vendor > Product listing page
@@ -149,7 +154,7 @@ MarketPlace gives you the tools you need to create your own online marketplace. 
 * Fix - Geolocation Shop Location filter
 * Fix - PHP Notices
 * Fix - Dashboard Products Pagination issue
-* Fix - Multiple digits product price issue on MarketPanel 
+* Fix - Multiple digits product price issue on MarketPanel
 * Fix - Product Sold Out display on Index Pages
 * Fix - WC Vendors Product Variation integration Issues
 
@@ -171,7 +176,7 @@ MarketPlace gives you the tools you need to create your own online marketplace. 
 = 1.0.7 =
 * Fix - MarketPanel layout on mobile
 * Fix - MarketPanel hover with multiple categories
-* Fix - Compatibility with WC Vendors attributes 
+* Fix - Compatibility with WC Vendors attributes
 
 = 1.0.6 =
 * New - Shop Location filter added

@@ -318,7 +318,7 @@ if ( ! class_exists( 'BuddyBoss_BM_VC_Elements' ) ):
                         $shop_name = WCV_Vendors::is_vendor( $vendor_id )
                             ? WCV_Vendors::get_vendor_shop_name( $vendor_id )
                             : get_bloginfo( 'name' );
-                        $store_icon_src 	= wp_get_attachment_image_src( get_user_meta( $vendor_id, '_wcv_store_icon_id', true ), array( 50, 50 ) );
+                        $store_icon_src 	= wp_get_attachment_image_src( get_user_meta( $vendor_id, '_wcv_store_icon_id', true ), 'bm-store-icon' );
                         $store_icon 		= '';
                         $shop_url  = WCV_Vendors::get_vendor_shop_page( $vendor_id );
                         // see if the array is valid
@@ -366,7 +366,7 @@ if ( ! class_exists( 'BuddyBoss_BM_VC_Elements' ) ):
                                 <div class="count"><i class="bb-icon-heart"></i><?php echo $value; ?></div>
                                 <?php $user_link = bp_core_get_user_domain( $vendor_id ); ?>
                                 <div class="avatar">
-                                    <a href="<?php echo $user_link; ?>"><?php echo get_avatar( $vendor_id, 56 ); ?></a>
+                                    <a href="<?php echo $user_link; ?>"><?php echo get_avatar( $vendor_id, 50 ); ?></a>
                                 </div>
                                 <div class="shop-details">
                                     <div class="name">

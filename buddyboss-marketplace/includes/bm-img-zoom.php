@@ -144,8 +144,8 @@ if ( ! class_exists( 'BuddyBoss_BM_Zoom' ) ) {
 	}
 
 	//Disable Zoom effect on Hover for Mobile devices in elevateZoom
-	if ( ! is_phone() ) {
-		//$bm_zoom = new BuddyBoss_BM_Zoom;
-	}
+//	if ( ! is_phone() ) {
+//		$bm_zoom = new BuddyBoss_BM_Zoom;
+//	}
 
 }

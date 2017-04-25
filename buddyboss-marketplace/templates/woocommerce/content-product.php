@@ -107,7 +107,7 @@ if(!$product->get_price_html()) {
 				$shop_name = WCV_Vendors::is_vendor($vendor_id)
 					? WCV_Vendors::get_vendor_shop_name($vendor_id)
 					: get_bloginfo('name');
-				$store_icon_src = wp_get_attachment_image_src( get_user_meta( $vendor_id, '_wcv_store_icon_id', true ), array(40, 40));
+				$store_icon_src = wp_get_attachment_image_src( get_user_meta( $vendor_id, '_wcv_store_icon_id', true ), 'bm-store-icon' );
 				$store_icon = '';
 				$shop_url = WCV_Vendors::get_vendor_shop_page($vendor_id);
 				// see if the array is valid
@@ -116,7 +116,12 @@ if(!$product->get_price_html()) {
 				} else {
 					$store_icon = get_avatar( $product->post->post_author, 40 );
 				}
+			} else {
+				$store_icon = get_avatar( $product->post->post_author, 40 );
+				$shop_name  = get_bloginfo('name');
+				$shop_url 	= '';
 			}
+
 			?>
          	<?php if(!urldecode( get_query_var( 'vendor_shop' ) ) && bp_current_action() != 'my_products'): ?>
             <div class="bm-product-author">

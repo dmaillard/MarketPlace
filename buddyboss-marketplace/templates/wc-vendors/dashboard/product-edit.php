@@ -12,14 +12,15 @@
  *
 */
 
-$title = 	( is_numeric( $object_id ) ) ? __('Save Changes', 'buddyboss-marketplace') : __('Add Product', 'buddyboss-marketplace');
+$title   = 	( is_numeric( $object_id ) ) ? __('Save Changes', 'buddyboss-marketplace') : __('Add Product', 'buddyboss-marketplace');
 $product = 	( is_numeric( $object_id ) ) ? wc_get_product( $object_id ) : null;
+$post 	 =  ( is_numeric( $object_id ) ) ? get_post( $object_id ) : null;
 
 // Get basic information for the product
-$product_title     			= ( isset($product) && null !== $product ) ? $product->post->post_title    : '';
-$product_description        = ( isset($product) && null !== $product ) ? $product->post->post_content  : '';
-$product_short_description  = ( isset($product) && null !== $product ) ? $product->post->post_excerpt  : '';
-$post_status				= ( isset($product) && null !== $product ) ? $product->post->post_status   : '';
+$product_title     			= ( isset($product) && null !== $product ) ? $product->get_title()    : '';
+$product_description        = ( isset($product) && null !== $product ) ? $post->post_content  : '';
+$product_short_description  = ( isset($product) && null !== $product ) ? $post->post_excerpt  : '';
+$post_status				= ( isset($product) && null !== $product ) ? $post->post_status   : '';
 
 /**
  *  Ok, You can edit the template below but be careful!
@@ -57,11 +58,14 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
 	<div class="all-100">
     	<!-- Media uploader -->
 		<div class="wcv-product-media">
+			<?php do_action( 'wcv_before_media', $object_id ); ?>
 			<?php BuddyBoss_BM_Templates::product_media_uploader( $object_id ); ?>
+			<?php do_action( 'wcv_after_media', $object_id ); ?>
 		</div>
 	</div>
 
 	<div class="all-100">
+		<?php do_action( 'wcv_before_product_type', $object_id ); ?>
 		<!-- Product Type -->
 		<div class="wcv-product-type">
 			<?php WCVendors_Pro_Product_Form::product_type( $object_id ); ?>
@@ -110,6 +114,9 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
 					<!-- Download Type -->
 					<?php WCVendors_Pro_Product_Form::download_type( $object_id ); ?>
 				</div>
+
+				<?php do_action( 'wcv_product_options_general_product_data', $object_id ); ?>
+
 			</div>
 
 			<?php do_action( 'wcv_after_general_tab', $object_id ); ?>
@@ -133,9 +140,9 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
 					<?php WCVendors_Pro_Product_Form::sold_individually( $object_id ); ?>
 				</div>
 
-				<?php do_action( 'wcv_product_options_sold_individually' ); ?>
+				<?php do_action( 'wcv_product_options_sold_individually', $object_id ); ?>
 
-				<?php do_action( 'wcv_product_options_inventory_product_data' ); ?>
+				<?php do_action( 'wcv_product_options_inventory_product_data', $object_id ); ?>
 
 			</div>
 
@@ -157,7 +164,9 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
 					<?php do_action( 'wcv_product_options_dimensions' ); ?>
 					<!-- shipping class -->
 					<?php WCVendors_Pro_Product_Form::shipping_class( $object_id ); ?>
-					<?php do_action( 'wcv_product_options_shipping' ); ?>
+					<?php do_action( 'wcv_product_options_shipping', $object_id ); ?>
+
+					<?php do_action( 'wcv_product_options_shipping_data_panel', $object_id ); ?>
 				</div>
 
 			</div>
@@ -178,6 +187,8 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
 					<?php WCVendors_Pro_Product_Form::grouped_products( $object_id, $product ); ?>
 
 				</div>
+
+				<?php do_action( 'wcv_product_options_upsells_product_data' ); ?>
 			</div>
 
 			<?php do_action( 'wcv_after_linked_tab', $object_id ); ?>
@@ -190,6 +201,8 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
 
 				<?php WCVendors_Pro_Product_Form::product_attributes( $object_id ); ?>
 
+				<?php do_action( 'wcv_product_options_attributes_product_data' ); ?>
+
 			</div>
 
 			<?php do_action( 'wcv_after_attributes_tab', $object_id ); ?>
@@ -201,6 +214,8 @@ $post_status				= ( isset($product) && null !== $product ) ? $product->post->pos
           	<div class="wcv_product_variations tabs-content" id="variations">
 
               <?php WCVendors_Pro_Product_Form::product_variations( $object_id ); ?>
+
+			  <?php do_action( 'wcv_product_options_variations_product_data' ); ?>
 
 			</div>
 

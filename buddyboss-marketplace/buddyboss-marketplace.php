@@ -5,7 +5,7 @@
  * Description: Integrates OneSocial theme and BuddyPress with WC Vendors.
  * Author:      BuddyBoss
  * Author URI:  http://buddyboss.com
- * Version:     1.4.0
+ * Version:     1.4.1
  */
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  */
 // Codebase version
 if ( ! defined( 'BUDDYBOSS_BM_PLUGIN_VERSION' ) ) {
-	define( 'BUDDYBOSS_BM_PLUGIN_VERSION', '1.4.0' );
+	define( 'BUDDYBOSS_BM_PLUGIN_VERSION', '1.4.1' );
 }
 
 // Database version

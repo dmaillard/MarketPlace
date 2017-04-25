@@ -46,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	global $product;
 
-	$upsells = $product->get_upsells();
+	$upsells = $product->get_upsell_ids();
 	$class = '';
 	if ( sizeof( $upsells ) != 0 ) {
 		$class = 'has-upsells';
@@ -64,7 +64,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php
 			if ( $current_user && $current_user != $vendor_id ):
 				$favorites = get_user_meta(get_current_user_id(), "favorite_shops", true);
-
+            
                 $text = __('Add to Favorites', 'buddyboss-marketplace' );
                 $class = '';
                 if((is_array($favorites) && in_array($vendor_id, $favorites))) {
@@ -77,7 +77,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 		<!-- /.store-desc -->
 		<div class="store-products table-cell">
-			<?php
+			<?php 
             // Products Loop
 			$product_args = array(
 				'post_type'       => 'product',

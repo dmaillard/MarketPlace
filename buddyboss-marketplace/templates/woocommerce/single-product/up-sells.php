@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product, $woocommerce_loop;
 
-$upsells = $product->get_upsells();
+$upsells = $product->get_upsell_ids();
 
 if ( sizeof( $upsells ) == 0 ) {
 	return;

@@ -300,9 +300,10 @@
         }
     });
 
-    $("document").ready(function() {
+    $(document).one( 'click', 'a.tabs-tab.shipping', function() {
         var $link = $(".wcv_shipping_rates a.insert");
-        $link.closest('.wcv_shipping_rates').find('tbody').append( $link.data( 'row' ) );
+        //$link.closest('.wcv_shipping_rates').find('tbody').append( $link.data( 'row' ) );
+        $link.click();
     });
 
     setTimeout(function(){

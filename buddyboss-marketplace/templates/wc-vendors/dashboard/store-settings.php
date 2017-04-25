@@ -128,6 +128,12 @@ $shipping_details 		= get_user_meta( get_current_user_id(), '_wcv_shipping', tru
 
 		<?php do_action( 'wcvendors_settings_after_shipping' ); ?>
 
+		<?php WCVendors_Pro_Store_Form::order_min_charge( $shipping_details ); ?>
+		<?php WCVendors_Pro_Store_Form::order_max_charge( $shipping_details ); ?>
+		<?php WCVendors_Pro_Store_Form::free_shipping_order( $shipping_details ); ?>
+		<?php WCVendors_Pro_Store_Form::product_max_charge( $shipping_details ); ?>
+		<?php WCVendors_Pro_Store_Form::free_shipping_product( $shipping_details ); ?>
+
 		<!-- Shiping Information  -->
 
 		<?php WCVendors_Pro_Store_Form::product_handling_fee( $shipping_details ); ?>

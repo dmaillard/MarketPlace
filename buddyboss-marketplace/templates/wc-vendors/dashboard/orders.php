@@ -69,7 +69,7 @@ jQuery(function () {
 			<tr id="order-<?php echo $order->id; ?>" data-order-id="<?php echo $order->id; ?>">
 				<td data-th="<?php _e( 'Order', 'buddyboss-marketplace' ); ?>"><?php echo $order->get_order_number(); ?></td>
 				<td data-th="<?php _e( 'Shipping', 'buddyboss-marketplace' ) ?>"><?php echo apply_filters( 'wcvendors_dashboard_google_maps_link', '<a target="_blank" href="' . esc_url( 'http://maps.google.com/maps?&q=' . urlencode( esc_html( preg_replace( '#<br\s*/?>#i', ', ', $order->get_formatted_shipping_address() ) ) ) . '&z=16' ) . '">'. esc_html( preg_replace( '#<br\s*/?>#i', ', ', $order->get_formatted_shipping_address() ) ) .'</a>' ); ?></td>
-				<td data-th="<?php _e( 'Total', 'buddyboss-marketplace' ) ?>"><?php $sum = WCV_Queries::sum_for_orders( array( $order->id ), array('vendor_id'=>get_current_user_id()) ); $total = $sum[0]->line_total; $totals += $total; echo woocommerce_price( $total ); ?></td>
+				<td data-th="<?php _e( 'Total', 'buddyboss-marketplace' ) ?>"><?php $sum = WCV_Queries::sum_for_orders( array( $order->id ), array('vendor_id'=>get_current_user_id()) ); $total = $sum[0]->line_total; $totals += $total; echo wc_price( $total ); ?></td>
 				<td data-th="<?php _e( 'Date', 'buddyboss-marketplace' ) ?>"><?php echo $order->order_date; ?></td>
 				<td data-th="<?php _e( 'Links', 'buddyboss-marketplace' ) ?>">
                 <?php
@@ -166,7 +166,7 @@ jQuery(function () {
 
 			<tr>
 				<td><b>Total:</b></td>
-				<td colspan="4"><?php echo woocommerce_price( $totals ); ?></td>
+				<td colspan="4"><?php echo wc_price( $totals ); ?></td>
 			</tr>
 
 	<?php else : ?>
