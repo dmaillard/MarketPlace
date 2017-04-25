@@ -1,0 +1,1295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MarketPlace\n"
+"Report-Msgid-Bugs-To: https://www.buddyboss.com/contact/\n"
+"POT-Creation-Date: 2017-04-15 07:16:05+00:00\n"
+"PO-Revision-Date: 2016-10-05 13:34+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: buddyboss-marketplace.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: buddyboss-marketplace.php:82
+msgid "Couldn't load main class at:<br/>%s"
+msgstr "No se pudo cargar la clase principal en:<br/>%s"
+
+#: buddyboss-marketplace.php:86 buddyboss-marketplace.php:118
+msgid "<h1>Fatal error:</h1><hr/><pre>%s</pre>"
+msgstr "<h1>Error FATAL:</h1><hr/><pre>%s</pre>"
+
+#: buddyboss-marketplace.php:112
+msgid "Couldn't load BMT_Plugin_Check class at:<br/>%s"
+msgstr ""
+
+#: includes/admin.php:178
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: includes/admin.php:180
+msgid "Select Page To Show Stores"
+msgstr ""
+
+#: includes/admin.php:181
+msgid "Select Page To Show Sellers"
+msgstr ""
+
+#: includes/admin.php:182
+msgid "Show Sold Items Count"
+msgstr ""
+
+#: includes/admin.php:183
+msgid "Show \"Register As Vendor\" Checkbox"
+msgstr ""
+
+#: includes/admin.php:187
+msgid "Support"
+msgstr "Soporte"
+
+#: includes/admin.php:233 includes/admin.php:249
+msgid "- None -"
+msgstr "- Nada -"
+
+#: includes/admin.php:236 includes/admin.php:252
+msgid "New Page"
+msgstr "Nueva página"
+
+#: includes/admin.php:238 includes/admin.php:254
+#: templates/woocommerce/myaccount/my-orders.php:88
+msgid "View"
+msgstr "Ver"
+
+#: includes/admin.php:240 includes/admin.php:256
+msgid ""
+"You may need to reset your permalinks after changing this setting. Go to "
+"Settings > Permalinks."
+msgstr ""
+
+#: includes/admin.php:300
+msgid "BuddyBoss MarketPlace"
+msgstr ""
+
+#: includes/admin.php:306
+msgid "Settings updated."
+msgstr "Ajustes actualizados."
+
+#: includes/admin.php:312 templates/wc-vendors/dashboard/product-edit.php:15
+#: templates/wc-vendors/dashboard/shop_coupon-edit.php:16
+#: templates/wc-vendors/dashboard/store-settings.php:167
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: includes/admin.php:343
+#: templates/wc-vendors/dashboard/settings/settings.php:24
+#: templates/wc-vendors/dashboard/store-settings.php:18
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: includes/bm-user-functions.php:160
+msgid "Your Order"
+msgstr "Su pedido"
+
+#: includes/bm-user-menus.php:62 includes/bm-user-menus.php:76
+#: includes/bm-user-menus.php:169 includes/bm-user-menus.php:177
+#: includes/vc-elements.php:114
+msgid "Products"
+msgstr "Productos"
+
+#: includes/bm-user-menus.php:87 includes/bm-user-menus.php:186
+msgid "Favorite Products"
+msgstr ""
+
+#: includes/bm-user-menus.php:97 includes/bm-user-menus.php:194
+msgid "Favorite Shops"
+msgstr ""
+
+#: includes/bm-user-menus.php:108 includes/bm-user-menus.php:201
+#: templates/wc-vendors/dashboard/orders.php:24
+msgid "Orders"
+msgstr "Pedidos"
+
+#: includes/bm-user-menus.php:120 includes/bm-user-menus.php:208
+msgid "History"
+msgstr "Historial"
+
+#: includes/bm-user-menus.php:132 includes/bm-user-menus.php:215
+#: templates/shop/member/track.php:12
+msgid "Track your order"
+msgstr "Seguimiento de tu pedido"
+
+#: includes/buddyboss-plugin-updater.php:84
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Un error HTTP inesperado ocurrió durante la petición de la API.</p> <p><a "
+"href=\"?\" onclick=\"document.location.reload(); return false;\">Inténtalo "
+"de nuevo</a>"
+
+#: includes/buddyboss-plugin-updater.php:88
+msgid "An unknown error occurred"
+msgstr "Ocurrió un error desconocido"
+
+#: includes/class-BMProductQuestionsHelper.php:63
+#: includes/class-BMProductQuestionsHelper.php:84
+#: templates/wc-vendors/dashboard/reports.php:17
+#: templates/wc-vendors/dashboard/reports.php:35
+msgid "Product"
+msgstr "Producto"
+
+#: includes/help-support.php:5
+msgid "Here is a video tutorial to get you started:"
+msgstr "Aquí es un video tutorial para comenzar:"
+
+#: includes/help-support.php:13
+msgid "Need more help?"
+msgstr "¿Necesitas más ayuda?"
+
+#: includes/help-support.php:16
+msgid "Frequently Asked Questions"
+msgstr "Preguntas Frecuentes"
+
+#: includes/help-support.php:17
+msgid "Current Version &amp; Release Notes"
+msgstr ""
+
+#: includes/help-support.php:18
+msgid "How to Update"
+msgstr "Cómo actualizar"
+
+#: includes/main-class.php:216 includes/main-class.php:225
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; eh?"
+
+#: includes/main-class.php:656 includes/vc-elements.php:550
+msgid "Out of Stock"
+msgstr "Agotado"
+
+#: includes/main-class.php:673
+msgid "Registering as a vendor."
+msgstr ""
+
+#: includes/main-class.php:686
+msgid ""
+"I have read and accepted the <a target=\"top\" href=\"%s\">terms and "
+"conditions</a>"
+msgstr ""
+
+#: includes/main-class.php:729 includes/main-class.php:790
+msgid "You must accept the terms and conditions to become a vendor."
+msgstr ""
+
+#: includes/main-class.php:944
+msgid "Basic"
+msgstr "Básico"
+
+#: includes/main-class.php:947 includes/vc-elements.php:151
+msgid "Description"
+msgstr "Información"
+
+#: includes/main-class.php:948
+msgid "Short Description"
+msgstr "Descripción corta"
+
+#: includes/main-class.php:949 includes/vc-elements.php:61
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/main-class.php:950 includes/templates-class.php:45
+#: includes/templates-class.php:63 includes/templates-class.php:76
+msgid "Colors"
+msgstr "Colores"
+
+#: includes/main-class.php:951
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/main-class.php:952
+msgid "Attributes"
+msgstr "Atributos"
+
+#: includes/main-class.php:1480
+msgid "Shop by Category"
+msgstr "Compra por categoría"
+
+#: includes/main-class.php:1487 includes/main-class.php:1560
+msgid "Cart"
+msgstr "Carrito"
+
+#: includes/main-class.php:1524
+msgid "Marketplace Menu"
+msgstr ""
+
+#: includes/main-class.php:1735 includes/main-class.php:1753
+msgid "Featured Category"
+msgstr "Categoría destacada"
+
+#: includes/main-class.php:1737 includes/main-class.php:1757
+msgid "Show this category at the top of any product category page."
+msgstr ""
+
+#: includes/main-class.php:1824 includes/marketplace-class.php:87
+#: templates/sellers-index.php:138
+#: templates/woocommerce/content-single-product.php:68
+msgid "Add to Favorites"
+msgstr "Añadir a favoritos"
+
+#: includes/main-class.php:1826 includes/marketplace-class.php:88
+#: templates/sellers-index.php:142
+#: templates/woocommerce/content-single-product.php:71
+msgid "Remove from Favorites"
+msgstr "Eliminar de Favoritos"
+
+#: includes/main-class.php:1902
+msgid "Default sorting"
+msgstr "Orden predeterminado"
+
+#: includes/main-class.php:1903
+msgid "Sort by popularity"
+msgstr "Ordenar por popularidad"
+
+#: includes/main-class.php:1904
+msgid "Sort by average rating"
+msgstr "Ordenar por calificación"
+
+#: includes/main-class.php:1905
+msgid "Sort by newness"
+msgstr "Ordenar por m&aacute;s recientes"
+
+#: includes/main-class.php:1906
+msgid "Sort by price: low to high"
+msgstr "Ordenar por precio: de menor a mayor"
+
+#: includes/main-class.php:1907
+msgid "Sort by price: high to low"
+msgstr "Ordenar por precio: de mayor a menor"
+
+#: includes/main-class.php:2115
+msgid "MarketPlace Pages Text"
+msgstr ""
+
+#: includes/main-class.php:2116
+msgid "Specify the marketplace pages content font properties."
+msgstr ""
+
+#: includes/main-class.php:2132
+msgid "MarketPlace Pages Semibold Text"
+msgstr ""
+
+#: includes/main-class.php:2133
+msgid "Specify the marketplace pages content semibold text."
+msgstr ""
+
+#: includes/main-class.php:2149
+msgid "MarketPlace Pages Bold Text"
+msgstr ""
+
+#: includes/main-class.php:2150
+msgid "Specify the marketplace pages content bold text."
+msgstr ""
+
+#: includes/main-class.php:2168
+msgid "MarketPlace Menu Text"
+msgstr ""
+
+#: includes/main-class.php:2169
+msgid "Specify the marketplace menu text styles."
+msgstr ""
+
+#: includes/marketplace-class.php:30
+msgid "BM"
+msgstr "BM"
+
+#: includes/requirements-class.php:22
+msgid ""
+"Before activating the BuddyBoss MarketPlace plugin, please activate "
+"OneSocial theme, BuddyPress and WC Vendors plugins first."
+msgstr ""
+
+#: includes/requirements-class.php:40
+msgid ""
+"Before activating the BuddyBoss MarketPlace plugin, please activate "
+"BuddyPress and WC Vendors plugins first."
+msgstr ""
+
+#: includes/templates-class.php:76
+msgid "Color"
+msgstr "Color"
+
+#: includes/templates-class.php:136
+msgid "No categories in this shop"
+msgstr ""
+
+#: includes/templates-class.php:177
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/templates-class.php:178 includes/templates-class.php:181
+msgid "Add Image"
+msgstr "Añadir imagen"
+
+#: includes/templates-class.php:179
+msgid "Remove Image"
+msgstr "Eliminar imagen"
+
+#: includes/templates-class.php:182 includes/templates-class.php:236
+#: includes/templates-class.php:259
+msgid "Select an Image"
+msgstr "Selecciona una Imagen"
+
+#: includes/templates-class.php:231
+#: templates/wc-vendors/dashboard/store-settings.php:104
+msgid "Store Banner"
+msgstr ""
+
+#: includes/templates-class.php:232 includes/templates-class.php:235
+msgid "Add Store Banner"
+msgstr ""
+
+#: includes/templates-class.php:233
+msgid "Remove Store Banner"
+msgstr ""
+
+#: includes/templates-class.php:254
+#: templates/wc-vendors/dashboard/store-settings.php:112
+msgid "Store Icon"
+msgstr ""
+
+#: includes/templates-class.php:255 includes/templates-class.php:258
+msgid "Add Store Icon"
+msgstr ""
+
+#: includes/templates-class.php:256
+msgid "Remove Store Icon"
+msgstr ""
+
+#: includes/templates-class.php:273
+msgid " Store"
+msgstr "Tienda"
+
+#: includes/templates-class.php:279
+msgid "Store Name <small>*</small>"
+msgstr ""
+
+#: includes/templates-class.php:280
+msgid "Your Store Name"
+msgstr ""
+
+#: includes/templates-class.php:282
+#: templates/wc-vendors/dashboard/settings/shop-name.php:4
+msgid "Your shop name is public and must be unique."
+msgstr ""
+
+#: includes/templates-class.php:305
+msgid "Featured Image"
+msgstr "Imagen"
+
+#: includes/templates-class.php:309
+msgid "Select or Upload a Feature Image"
+msgstr ""
+
+#: includes/templates-class.php:309
+msgid "Set Product Feature Image"
+msgstr ""
+
+#: includes/templates-class.php:317
+msgid "Set featured image"
+msgstr "Establecer imagen destacada"
+
+#: includes/templates-class.php:318
+msgid "Remove featured image"
+msgstr "Eliminar foto principal"
+
+#: includes/templates-class.php:330
+msgid "You have reached the maximum number of gallery images."
+msgstr ""
+
+#: includes/templates-class.php:336
+msgid "Gallery"
+msgstr "Galeria"
+
+#: includes/templates-class.php:351
+msgid "Add Images to Product Gallery"
+msgstr "Añadir imágenes a la galería"
+
+#: includes/templates-class.php:351
+msgid "Add to gallery"
+msgstr "Añadir a la galería"
+
+#: includes/templates-class.php:351
+msgid "Add Product Image"
+msgstr ""
+
+#: includes/templates-class.php:409
+msgid "Select a "
+msgstr ""
+
+#: includes/vc-elements.php:45 includes/vc-elements.php:92
+#: includes/vc-elements.php:184 includes/vc-elements.php:217
+#: includes/vc-elements.php:244
+msgid "Title"
+msgstr "Título"
+
+#: includes/vc-elements.php:68
+msgid "List of product categories"
+msgstr "List of product categories"
+
+#: includes/vc-elements.php:72 includes/vc-elements.php:127
+#: includes/vc-elements.php:197 includes/vc-elements.php:223
+#: includes/vc-elements.php:257
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/vc-elements.php:84
+msgid "Newest Products"
+msgstr "Los productos más nuevos"
+
+#: includes/vc-elements.php:87 includes/vc-elements.php:146
+#: includes/vc-elements.php:179 includes/vc-elements.php:212
+#: includes/vc-elements.php:238
+msgid "MarketPlace"
+msgstr ""
+
+#: includes/vc-elements.php:88
+msgid "Show multiple products by ID."
+msgstr ""
+
+#: includes/vc-elements.php:123
+msgid "Enter List of Products"
+msgstr "Enter List of Products"
+
+#: includes/vc-elements.php:143
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: includes/vc-elements.php:147
+msgid "Show subscription form."
+msgstr ""
+
+#: includes/vc-elements.php:157
+msgid "Which WP plugin do you use:"
+msgstr ""
+
+#: includes/vc-elements.php:167
+msgid "MailChimp Form ID"
+msgstr ""
+
+#: includes/vc-elements.php:168
+msgid "If you are using MailChimp enter form ID here"
+msgstr ""
+
+#: includes/vc-elements.php:176
+msgid "Featured Seller"
+msgstr "Vendedor Destacado"
+
+#: includes/vc-elements.php:180
+msgid "Show featured seller's products."
+msgstr ""
+
+#: includes/vc-elements.php:190
+msgid "User ID"
+msgstr "ID de Usuario"
+
+#: includes/vc-elements.php:191
+msgid "If ID is not set featured seller will be chosen by popularity"
+msgstr ""
+
+#: includes/vc-elements.php:209
+msgid "Product Feed"
+msgstr "Product Feed"
+
+#: includes/vc-elements.php:213
+msgid "Show products/shops with most feedback."
+msgstr ""
+
+#: includes/vc-elements.php:235
+msgid "Featured Sellers"
+msgstr ""
+
+#: includes/vc-elements.php:239
+msgid "Show featured sellers"
+msgstr ""
+
+#: includes/vc-elements.php:381 templates/sellers-index.php:159
+msgid "Sold: "
+msgstr "Vendido:"
+
+#: includes/vc-elements.php:384 templates/sellers-index.php:163
+msgid "Feedback: "
+msgstr "Comentarios:"
+
+#: includes/vc-elements.php:384 templates/sellers-index.php:163
+msgid "%"
+msgstr "%"
+
+#: includes/vc-elements.php:396 templates/sellers-index.php:178
+msgid "Shop"
+msgstr "Tienda"
+
+#: includes/vc-elements.php:444 includes/vc-elements.php:638
+#: templates/bm-favorite-shops-page.php:105 templates/sellers-index.php:220
+#: templates/store-index.php:180
+#: templates/woocommerce/content-single-product.php:143
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vc-elements.php:542
+msgid "One of our most popular products"
+msgstr ""
+
+#: includes/vc-elements.php:583
+msgid "One of our most popular shops"
+msgstr ""
+
+#: includes/vc-elements.php:656 templates/bm-favorite-shops-page.php:51
+#: templates/store-index.php:117 templates/woocommerce/archive-product.php:60
+#: templates/woocommerce/content-single-product.php:181
+msgid "Shop Owner"
+msgstr "Dueño de Tienda"
+
+#: includes/vc-elements.php:721
+msgid "see all sellers"
+msgstr ""
+
+#: includes/vc-elements.php:864
+msgid "Your email address"
+msgstr "Tu correo electrónico"
+
+#: includes/vc-elements.php:866
+#, fuzzy
+msgid "Subscribe"
+msgstr "Suscripción"
+
+#: includes/vc-elements.php:1115
+msgid "editor's picked"
+msgstr ""
+
+#: includes/vc-elements.php:1121 templates/woocommerce/archive-product.php:226
+msgid "%s Item"
+msgid_plural "%s Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets-bm-location-filter.php:31
+msgid "Filter products by shop location when viewing product archive."
+msgstr ""
+
+#: includes/widgets-bm-location-filter.php:33
+msgid "MarketPlace Shop Location Filter"
+msgstr ""
+
+#: includes/widgets-bm-location-filter.php:279
+#: templates/woocommerce/myaccount/my-orders.php:92
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/widgets-bm-location-filter.php:284
+#: includes/widgets-bm-location-filter.php:430
+msgid "Choose a custom location"
+msgstr ""
+
+#: includes/widgets-bm-location-filter.php:346
+msgid "Title (optional):"
+msgstr "Título (opcional):"
+
+#: includes/widgets-bm-location-filter.php:352
+msgid "Google API Key:"
+msgstr ""
+
+#: includes/widgets-bm-location-filter.php:394
+msgid "Anywhere"
+msgstr ""
+
+#: includes/widgets-bm-location-filter.php:424
+msgid "Enter location"
+msgstr ""
+
+#: includes/widgets.php:97
+msgid "- None"
+msgstr ""
+
+#: includes/widgets.php:197
+msgid ""
+"A panel dropdown showing product categories. Can be used only in MarketPanel "
+"widget area."
+msgstr ""
+
+#: includes/widgets.php:199
+msgid "MarketPanel"
+msgstr ""
+
+#: includes/widgets.php:203
+msgid "Product Categories"
+msgstr "Categorías de Productos"
+
+#: includes/widgets.php:204
+msgid "Menu Title"
+msgstr "Título del menú"
+
+#: includes/widgets.php:209
+msgid ""
+"Categories to display. Empty categories will not display. Parent categories "
+"will be used as section headers."
+msgstr ""
+
+#: includes/widgets.php:214
+msgid "Show \"View All\" links"
+msgstr ""
+
+#: includes/widgets.php:219
+msgid ""
+"Optimize database queries: May result in incorrect display in some cases. "
+"Uncheck this option if so."
+msgstr ""
+
+#: includes/widgets.php:224
+msgid "The First Featured Product Category"
+msgstr ""
+
+#: includes/widgets.php:229
+msgid "The Second Featured Product Category"
+msgstr ""
+
+#: includes/widgets.php:234
+msgid "Display Product based on:"
+msgstr ""
+
+#: includes/widgets.php:236
+msgid "Latest Product"
+msgstr ""
+
+#: includes/widgets.php:237
+msgid "Most Popular Product"
+msgstr ""
+
+#: includes/widgets.php:374 includes/widgets.php:638
+msgid " Product"
+msgid_plural " Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets.php:379 includes/widgets.php:643
+msgid "Latest"
+msgstr "Reciente"
+
+#: includes/widgets.php:382 includes/widgets.php:646
+msgid "Most Popular"
+msgstr "Más Populares"
+
+#: includes/widgets.php:624 includes/widgets.php:783
+msgid "All "
+msgstr "Todos"
+
+#: templates/bm-favorite-shops-page.php:131
+#: templates/bm-favorite-shops-page.php:139
+msgid "Sorry, no favorite stores were found."
+msgstr ""
+
+#: templates/bm-favorites-page.php:90 templates/bm-favorites-page.php:99
+msgid "Sorry, no favorite products were found."
+msgstr ""
+
+#: templates/sellers-index.php:42
+#, fuzzy
+msgid "Search sellers"
+msgstr "Vendedor Destacado"
+
+#: templates/sellers-index.php:44 templates/store-index.php:49
+#: templates/woocommerce/loop/orderby.php:22
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/sellers-index.php:49 templates/store-index.php:54
+#: templates/woocommerce/loop/orderby.php:26
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: templates/sellers-index.php:52 templates/store-index.php:57
+msgid "Most Active"
+msgstr "Las Subastas más Activas"
+
+#: templates/sellers-index.php:54 templates/store-index.php:59
+msgid "Most Recent"
+msgstr "Más Recientes"
+
+#: templates/sellers-index.php:56 templates/store-index.php:61
+msgid "Alphabetical"
+msgstr "Alfabético"
+
+#: templates/sellers-index.php:73
+msgid "Browsing all sellers <span>(%1s of %2s)</span>"
+msgstr ""
+
+#: templates/sellers-index.php:250
+msgid "Sorry, no sellers were found."
+msgstr ""
+
+#: templates/store-index.php:48
+#, fuzzy
+msgid "Search stores"
+msgstr "Buscar"
+
+#: templates/store-index.php:78
+msgid "Browsing all stores <span>(%1s of %2s)</span>"
+msgstr ""
+
+#: templates/store-index.php:209
+msgid "Sorry, no stores were found."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/orders.php:7
+#: templates/wc-vendors/dashboard/orders.php:10
+msgid "Hide items"
+msgstr "Ocultar elementos"
+
+#: templates/wc-vendors/dashboard/orders.php:8
+#: templates/wc-vendors/dashboard/orders.php:79
+msgid "View items"
+msgstr "Ver elementos"
+
+#: templates/wc-vendors/dashboard/orders.php:33
+#: templates/wc-vendors/dashboard/orders.php:70
+#: templates/woocommerce/myaccount/my-orders.php:25
+msgid "Order"
+msgstr "Orden"
+
+#: templates/wc-vendors/dashboard/orders.php:34
+#: templates/wc-vendors/dashboard/orders.php:71
+msgid "Shipping"
+msgstr "Envío"
+
+#: templates/wc-vendors/dashboard/orders.php:35
+#: templates/wc-vendors/dashboard/orders.php:72
+#: templates/woocommerce/myaccount/my-orders.php:28
+msgid "Total"
+msgstr "Total"
+
+#: templates/wc-vendors/dashboard/orders.php:36
+#: templates/wc-vendors/dashboard/orders.php:73
+#: templates/woocommerce/myaccount/my-orders.php:26
+msgid "Date"
+msgstr "de vigencia"
+
+#: templates/wc-vendors/dashboard/orders.php:37
+#: templates/wc-vendors/dashboard/orders.php:74
+msgid "Links"
+msgstr "Enlaces"
+
+#: templates/wc-vendors/dashboard/orders.php:85
+msgid "Mark shipped"
+msgstr "Marcar enviado"
+
+#: templates/wc-vendors/dashboard/orders.php:92
+msgid "Shipped"
+msgstr "Enviado"
+
+#: templates/wc-vendors/dashboard/orders.php:100
+msgid "Tracking"
+msgstr "Seguimiento"
+
+#: templates/wc-vendors/dashboard/orders.php:175
+msgid "You have no orders during this period."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/permission.php:14
+#, fuzzy
+msgid "No Permission."
+msgstr "Comissão"
+
+#: templates/wc-vendors/dashboard/permission.php:16
+#, fuzzy
+msgid "Return to dashboard"
+msgstr "Volver a la Tienda"
+
+#: templates/wc-vendors/dashboard/product-edit.php:15
+msgid "Add Product"
+msgstr "Añadir Producto"
+
+#: templates/wc-vendors/dashboard/product-edit.php:211
+msgid "Save Draft"
+msgstr "Guardar como borrador"
+
+#: templates/wc-vendors/dashboard/reports/reports.php:16
+msgid "Orders Totals"
+msgstr "Pedidos totales"
+
+#: templates/wc-vendors/dashboard/reports/reports.php:21
+msgid ""
+"No orders for this period. Adjust your dates above and click Update, or list "
+"new products for customers to buy."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/reports/reports.php:34
+msgid "Product Totals"
+msgstr ""
+
+#: templates/wc-vendors/dashboard/reports/reports.php:45
+msgid ""
+"No sales for this period. Adjust your dates above and click Update, or list "
+"new products for customers to buy."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/reports/reports.php:60
+#: templates/woocommerce/myaccount/my-orders.php:42
+msgid "Recent Orders"
+msgstr "Pedidos recientes"
+
+#: templates/wc-vendors/dashboard/reports/reports.php:65
+#: templates/wc-vendors/dashboard/reports/reports.php:76
+msgid "View All"
+msgstr "Ver todo"
+
+#: templates/wc-vendors/dashboard/reports/reports.php:72
+msgid "Recent Products"
+msgstr "Productos Recientes"
+
+#: templates/wc-vendors/dashboard/reports.php:1
+msgid "Sales Report"
+msgstr "Informe de ventas"
+
+#: templates/wc-vendors/dashboard/reports.php:18
+#: templates/wc-vendors/dashboard/reports.php:41
+#: templates/wc-vendors/dashboard/reports.php:57
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: templates/wc-vendors/dashboard/reports.php:19
+#: templates/wc-vendors/dashboard/reports.php:42
+#: templates/wc-vendors/dashboard/reports.php:58
+msgid "Commission"
+msgstr "Comissão"
+
+#: templates/wc-vendors/dashboard/reports.php:20
+#: templates/wc-vendors/dashboard/reports.php:43
+msgid "Rate"
+msgstr "Оценка"
+
+#: templates/wc-vendors/dashboard/reports.php:47
+msgid "Show Orders"
+msgstr ""
+
+#: templates/wc-vendors/dashboard/reports.php:56
+msgid "Totals"
+msgstr "Totales"
+
+#: templates/wc-vendors/dashboard/reports.php:70
+msgid "You have no sales during this period."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/reports.php:80
+msgid "You haven't made any sales yet."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/settings/paypal-email-form.php:3
+msgid "PayPal Address"
+msgstr "Dirección de PayPal"
+
+#: templates/wc-vendors/dashboard/settings/paypal-email-form.php:4
+msgid "Your PayPal address is used to send you your commission."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/settings/seller-info.php:3
+msgid "Seller info"
+msgstr "Información del autor"
+
+#: templates/wc-vendors/dashboard/settings/seller-info.php:4
+msgid "This is displayed on each of your products."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/settings/settings.php:70
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/wc-vendors/dashboard/settings/shop-description.php:3
+msgid "Shop Description"
+msgstr "Descripción de la tienda"
+
+#: templates/wc-vendors/dashboard/settings/shop-description.php:4
+msgid "This is displayed on your <a href=\"%s\">shop page</a>."
+msgstr ""
+
+#: templates/wc-vendors/dashboard/settings/shop-name.php:3
+msgid "Shop Name"
+msgstr "Nombre del resturante"
+
+#: templates/wc-vendors/dashboard/shop_coupon-edit.php:16
+msgid "Add Coupon"
+msgstr "Agregar cupón"
+
+#: templates/wc-vendors/dashboard/shop_coupon-edit.php:45
+msgid "General"
+msgstr "General"
+
+#: templates/wc-vendors/dashboard/shop_coupon-edit.php:46
+msgid "Usage Restrictions"
+msgstr ""
+
+#: templates/wc-vendors/dashboard/shop_coupon-edit.php:47
+msgid "Usage Limits"
+msgstr "Límites de Uso"
+
+#: templates/wc-vendors/front/vendor-main-header.php:76
+#: templates/wc-vendors/store/store-header.php:69
+#: templates/wc-vendors/store/store-header.php:95
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/wc-vendors/front/vendor-main-header.php:77
+#: templates/wc-vendors/store/store-header.php:70
+#: templates/wc-vendors/store/store-header.php:96
+msgid "Instagram"
+msgstr "Instagram"
+
+#: templates/wc-vendors/front/vendor-main-header.php:78
+#: templates/wc-vendors/store/store-header.php:71
+#: templates/wc-vendors/store/store-header.php:97
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/wc-vendors/front/vendor-main-header.php:79
+#: templates/wc-vendors/store/store-header.php:72
+#: templates/wc-vendors/store/store-header.php:98
+msgid "Google +"
+msgstr "Google +"
+
+#: templates/wc-vendors/front/vendor-main-header.php:80
+#: templates/wc-vendors/store/store-header.php:73
+#: templates/wc-vendors/store/store-header.php:99
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: templates/wc-vendors/front/vendor-main-header.php:81
+#: templates/wc-vendors/store/store-header.php:74
+#: templates/wc-vendors/store/store-header.php:100
+msgid "Youtube"
+msgstr "Youtube"
+
+#: templates/wc-vendors/front/vendor-main-header.php:82
+#: templates/wc-vendors/store/store-header.php:75
+#: templates/wc-vendors/store/store-header.php:101
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: templates/wc-vendors/store/store-header.php:76
+#: templates/wc-vendors/store/store-header.php:102
+msgid "Snapchat"
+msgstr ""
+
+#: templates/wc-vendors/store/store-ratings.php:25
+msgid "Customer Ratings"
+msgstr "Reseñas Consumidores"
+
+#: templates/wc-vendors/store/store-ratings.php:48
+msgid "Product:"
+msgstr "Producto:"
+
+#: templates/wc-vendors/store/store-ratings.php:49
+msgid "Posted on"
+msgstr "Posteado el"
+
+#: templates/wc-vendors/store/store-ratings.php:49
+msgid "by"
+msgstr "por"
+
+#: templates/wc-vendors/store/store-ratings.php:57
+msgid "No ratings have been submitted for this vendor yet."
+msgstr "Este vendedor no ha recibido reseñas todavía."
+
+#: templates/wc-vendors/store/store-ratings.php:59
+msgid "Return to store"
+msgstr "Volver a la Tienda"
+
+#: templates/woocommerce/archive-product.php:119
+#: templates/woocommerce/content-single-product.php:202
+msgid "Send a private message to this user."
+msgstr ""
+
+#: templates/woocommerce/archive-product.php:119
+#: templates/woocommerce/content-single-product.php:202
+msgid "Ask a question"
+msgstr "Hacer una pregunta"
+
+#: templates/woocommerce/archive-product.php:127
+msgid "Shop Sections"
+msgstr ""
+
+#: templates/woocommerce/archive-product.php:183
+msgid "Top Category"
+msgid_plural "Top Categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/woocommerce/cart/cart-empty.php:27
+msgid "Your cart is currently empty."
+msgstr "Tu carro esta vacío."
+
+#: templates/woocommerce/cart/cart-empty.php:34
+msgid "Return To Shop"
+msgstr "Regresar a la Tienda"
+
+#: templates/woocommerce/checkout/form-billing.php:28
+msgid "Billing &amp; Shipping"
+msgstr "Facturación y envío"
+
+#: templates/woocommerce/checkout/form-billing.php:32
+msgid "Billing Details"
+msgstr "Detalles de facturación"
+
+#: templates/woocommerce/checkout/form-billing.php:60
+msgid "Create an account?"
+msgstr "¿Crear una cuenta?"
+
+#: templates/woocommerce/checkout/form-billing.php:71
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Crear una cuenta rellenando la siguiente información. Si usted ya esta "
+"registrado, inicie sesión en la tienda."
+
+#: templates/woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr "Debe estar conectado para realizar el pedido."
+
+#: templates/woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr "Su pedido"
+
+#: templates/woocommerce/checkout/thankyou.php:26
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"Desgraciadamente, tu compra no ha podido realizarse.  El banco ha rechazado "
+"tu transacción. Por favor, intenta nuevamente. En caso de que no funcione, "
+"puedes comunicarte con nosotros vía e-mail."
+
+#: templates/woocommerce/checkout/thankyou.php:29
+#: templates/woocommerce/myaccount/my-orders.php:84
+msgid "Pay"
+msgstr "Pagar"
+
+#: templates/woocommerce/checkout/thankyou.php:31
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: templates/woocommerce/checkout/thankyou.php:37
+#: templates/woocommerce/checkout/thankyou.php:71
+msgid "Thank you. Your order has been received."
+msgstr "Gracias. Tu pedido ha sido recibido."
+
+#: templates/woocommerce/checkout/thankyou.php:41
+msgid "Order Number:"
+msgstr "Número de reserva:"
+
+#: templates/woocommerce/checkout/thankyou.php:45
+msgid "Date:"
+msgstr "Fecha:"
+
+#: templates/woocommerce/checkout/thankyou.php:49
+msgid "Total:"
+msgstr "Total:"
+
+#: templates/woocommerce/checkout/thankyou.php:54
+msgid "Payment Method:"
+msgstr "Método de pago:"
+
+#: templates/woocommerce/loop/orderby.php:21
+msgid "Search in this shop"
+msgstr ""
+
+#: templates/woocommerce/loop/result-count.php:37
+msgid "Showing"
+msgstr "Mostrando"
+
+#: templates/woocommerce/loop/result-count.php:40
+msgid "%1s (1 of 1)"
+msgstr ""
+
+#: templates/woocommerce/loop/result-count.php:42
+msgid "%1s (%2$d)"
+msgstr ""
+
+#: templates/woocommerce/myaccount/my-orders.php:27
+msgid "Status"
+msgstr "Status"
+
+#: templates/woocommerce/myaccount/my-orders.php:77
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/woocommerce/myaccount/my-orders.php:119
+msgid "No items found."
+msgstr "No se encontraron Items."
+
+#: templates/woocommerce/order/order-details-customer.php:30
+msgid "Customer Details"
+msgstr "Detalles de Cliente"
+
+#: templates/woocommerce/order/order-details-customer.php:35
+msgid "Note:"
+msgstr "Nota:"
+
+#: templates/woocommerce/order/order-details-customer.php:42
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: templates/woocommerce/order/order-details-customer.php:49
+msgid "Telephone:"
+msgstr "Teléfono:"
+
+#: templates/woocommerce/order/order-details-customer.php:63
+msgid "Billing Address"
+msgstr "Dirección de Factura"
+
+#: templates/woocommerce/order/order-details-customer.php:66
+#: templates/woocommerce/order/order-details-customer.php:79
+#: templates/woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr "N/A"
+
+#: templates/woocommerce/order/order-details-customer.php:76
+msgid "Shipping Address"
+msgstr "Dirección de Envío"
+
+#: templates/woocommerce/single-product/meta.php:26
+msgid "SKU:"
+msgstr "SKU:"
+
+#: templates/woocommerce/single-product/meta.php:30
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/woocommerce/single-product/meta.php:32
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/woocommerce/single-product/product-image.php:55
+msgid "Awaiting product image"
+msgstr ""
+
+#: templates/woocommerce/single-product-reviews.php:32
+msgid "<span>%s review</span> for %s"
+msgid_plural "<span>%s reviews</span> for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/woocommerce/single-product-reviews.php:34
+msgid "Reviews"
+msgstr "Opiniones"
+
+#: templates/woocommerce/single-product-reviews.php:55
+msgid "There are no reviews yet."
+msgstr "Sin comentarios"
+
+#: templates/woocommerce/single-product-reviews.php:68
+msgid "Add a review"
+msgstr "Añadir una opinión"
+
+#: templates/woocommerce/single-product-reviews.php:68
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Sé el primero en opinar &ldquo;%s&rdquo;"
+
+#: templates/woocommerce/single-product-reviews.php:69
+msgid "Leave a Reply to %s"
+msgstr "Dejar una respuesta a %s"
+
+#: templates/woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr "Email"
+
+#: templates/woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/woocommerce/single-product-reviews.php:84
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Debes <a href=“%s”>Iniciar Sesión</a> para publicar tu opinión."
+
+#: templates/woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr "Tu puntuación"
+
+#: templates/woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr "Rate&hellip;"
+
+#: templates/woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr "Perfecto"
+
+#: templates/woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr "Buena"
+
+#: templates/woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr "Promedio"
+
+#: templates/woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr "No muy mal"
+
+#: templates/woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr "Pésimo"
+
+#: templates/woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr "Tu opinión"
+
+#: templates/woocommerce/single-product-reviews.php:98
+msgid "Write your review"
+msgstr "Explica tu experiencia"
+
+#: templates/woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Solo los clientes registrados que han compado este vehículo, pueden dejar "
+"una opinión."
+
+#: templates/woocommerce/loop/result-count.php:44
+msgctxt "%1s = $from, %2$d = first, %3$d = last, %4$d = total"
+msgid "%1s (%2$d&ndash;%3$d of %4$d)"
+msgstr ""
+
+#: templates/woocommerce/myaccount/my-orders.php:67
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#~ msgid "Placeholder"
+#~ msgstr "Marcador de posición"
+
+#~ msgid "Support Forums"
+#~ msgstr "Foros de Soporte"
+
+#~ msgid "BuddyBoss"
+#~ msgstr "BuddyBoss"
+
+#~ msgid "http://buddyboss.com"
+#~ msgstr "http://BUDDYBOSS.com"

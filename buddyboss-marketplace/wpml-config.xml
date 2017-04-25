@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="buddyboss_bm_plugin_options">
+            <key name="store-index" />
+            <key name="sellers-index" />
+        </key>
+    </admin-texts>
+</wpml-config>
